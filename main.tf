@@ -15,7 +15,7 @@ module "child" {
 
   name = "from-parent"
 }
-
+# nocode change
 output "child_name" {
   value = module.child.name
 }
